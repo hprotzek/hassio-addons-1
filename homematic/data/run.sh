@@ -1,6 +1,6 @@
 #!/usr/bin/env bashio
 # shellcheck disable=SC1091
-set -e
+set -xe
 
 WAIT_PIDS=()
 
