@@ -113,7 +113,7 @@ if bashio::config.true 'hmip_enable'; then
         ADAPTER=$((hmip_device+1))
 
         # Update Firmware
-        firmware_update_hmip "${DEVICE}"
+        #firmware_update_hmip "${DEVICE}"
 
         # Update config
         (
